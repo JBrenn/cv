@@ -1,0 +1,118 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Version: 20110122-4
+
+
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
+
+\usepackage{JBrenn}
+
+\usepackage[english]{babel}
+\linespread{0.9}
+% for some reason, lines take up a lot of space in itemize in English...
+\newenvironment{tightitemize}
+   {\begin{itemize}
+   \setlength{\parskip}{0pt}}
+   {\end{itemize}} 
+
+% personal data
+\title{Junior Researcher | Eco-Hydrology}
+\extrainfo{%
+%\linkedin~\httplink{www.linkedin.com/in/raphink}\\%
+%\octocat~
+\httplink{www.github.com/JBrenn}\\%
+Driving License} % optional, remove the line if not wanted
+
+%\myquote{Freely you have received, freely give}{Matthew 10:8}
+
+
+%\nopagenumbers{}                            % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+
+\hyphenpenalty=10000
+\maketitle
+
+\section{Education | Academic Training}
+
+\tldatecventry{2015}{SummerSchool}{\href{http://potsdam-summer-school.org/}{``Facing Natural Hazards''}}{}{Potsdam}{hosting institutions: \href{http://www.iass-potsdam.de/en}{IASS}, \href{https://www.pik-potsdam.de/pik-frontpage?set_language=en}{PIK}, \href{http://www.gfz-potsdam.de/en/home/}{GFZ}, \href{https://www.awi.de/en/about-us/sites/potsdam.html}{AWI}, \href{http://www.uni-potsdam.de/en/index.html}{University of Potsdam}}
+
+\tldatecventry{2015}{MasterClass}{\href{http://www.euporias.eu/event/masterclass}{``Climate Services''}}{European Academy (EURAC)}{Bozen/Bolzano}{organized within the \href{http://www.euporias.eu/}{EUPORIAS project}.}
+
+\tlcventry{2014}{0}{Junior Research Assistent}{\href{http://www.eurac.edu/en/research/mountains/alpenv/Pages/default.aspx}{EURAC, Institute for Alpine} Environment}{Bozen/Bolzano }{}{eco-hydrological simulations with GEOtop and SWAT, eco-hydrologic climate impact studies at catchment scale, data management (R and MySQL), organisation/realisation of field work (LTsER site Matsch/Mazia).}
+ 
+\tllabelcventry{2011}{2014}{2011--2014}{Scientific Assistent}{Institute of Earth and Environmental Science, Working Group Hydrology and Climatology}{University of Potsdam}{}{installation and maintenance of a micro-rain radar (S\"olden, Austria), contribution to an \href{http://www.hydrol-earth-syst-sci.net/17/863/2013/hess-17-863-2013.pdf}{open source library for processing weather radar data (wradlib)}, data analysis (R), literature review (Mendeley).}
+
+\tllabelcventry{2011}{2014}{2011--2014}{Master's programme Geoecology}{Institute of Earth and Environmental Science}{University of Potsdam}{Graduation with distinction (1.2)}{Thesis: ``Spatial variability and temporal trends of soil moisture and evapotranspiration in an inneralpine dry catchment''. Supervised by Prof. Axel Bronstert \& Dr. Giacomo Bertoldi (Institute for Alpine Environment, EURAC research, Bozen).}
+
+\tldatecventry{2011}{Internship}{Potsdam Institute for Climate Impact Research (PIK)}{Potsdam}{}{Processing and analysis of climate and land use data as input for the Dynamic Global Vegetation Model LPJ with the statistic computing language \textit{R}.}
+
+\tldatecventry{2010}{Field Work}{Nacimiento}{Chile}{}{Determining soil hydraulic (e.g. hydraulic conductivity), terrain and vegetation characteristics in a forest catchment for parametrisation of the hydrological model WASA-Sed.}
+
+\tllabelcventry{2007}{2011}{2007--2011}{Bachelor's programme Geoecology}{Institute of Earth and Environmental Science}{University of Potsdam}{}
+{Thesis: ``Modelling of sediment transport in a deforested catchment with \textit{WASA-Sed} (Nacimiento, Chile)'' Supervised by Prof. Axel Bronstert \& Dr. Christian Mohr (Institute of Earth and Environmental Science, University of Potsdam). Funded by DAAD scholarship ``Thesis abroad''.}
+
+\section{Skills}
+
+\subsection{IT applications and development}
+
+\cvcomputer{HydroModels}{GEOtop, SWAT, WASA-Sed}
+		   {Geoinformation}{QGIS, GRASS, SAGA, ArcGIS}
+		   
+\cvcomputer{DataAnalysis}{R, Concave}
+           {Programming}{Python, Fortran}
+
+\cvcomputer{Databases}{SQLite (RSQLite)}
+           {Formats}{NetCDF}
+
+\cvcomputer{Operating Systems}{GNU/Linux (Ubuntu, RedHat), Windows}
+		   {Tools}{GitHub, Mendeley, Overleaf}
+
+\cvcomputer{Office}{LibreOffice, MicrosoftOffice, Inkscape}
+           {Edition}{\LaTeX{}}
+
+\newpage
+
+\subsection{Foreign Languages}     
+     
+\cvlanguage{German}{Native}{Mother Tongue}
+\cvlanguage{English}{Fluent}{Daily practice, scientific writing}
+\cvlanguage{French}{B1 Level}{Studied 5 years in school}
+\cvlanguage{Italian}{A2 Level}{Lived 3 years in South Tyrol (Italy)}
+
+
+\section{Participation in Research Projects}
+
+\tlcventry{2014}{0}{\href{http://www.monalisa-project.eu/}{MONALISA}}{\href{http://www.monalisa-project.eu/}{Monitoring key evironmental parameters in the alpine environment involving science, technology and application}}{}{}{Junior Researcher responsible for eco-hydrological modeling for different land uses (apple orchards, Alpine grassland - meadow and pasture), data management and analysis.}
+
+\tlcventry{2014}{0}{\href{http://www.eurac.edu/en/research/mountains/remsen/projects/Pages/projectdetails.aspx?pid=11492}{HiResAlp}}{\href{http://www.eurac.edu/en/research/mountains/remsen/projects/Pages/projectdetails.aspx?pid=11492}{``An innovative framework for the integration of multi-source data to determine soil moisture and evapotranspiration at high resolution in Alpine regions''}}{}{}{Junior Researcher responsible for field activities and point-scale/distributed eco-hydrological modeling in the LTsER site Mazia/Matsch.}
+
+\tllabelcventry{2013}{2014}{2013--2014}{\href{http://www.eurac.edu/en/research/mountains/alpenv/projects/Pages/projectdetails.aspx?pid=9221}{HydroAlp}}{\href{http://www.eurac.edu/en/research/mountains/alpenv/projects/Pages/projectdetails.aspx?pid=9221}{``Modelling the interactions between water cycle, vegetation and climate in Alpine Environments''}}{}{}
+{Master Student responsible for climate change impact assessment with the hydrological model GEOtop, results available via \href{http://webgis.eurac.edu/hydroalp/}{WEB-GIS}.}
+
+\section{Publications \& Conference Proceedings}
+
+\tldatecventry{2015}{Bertoldi G, \underline{Brenner J}, Notarnicola C, Greifeneder F, Nicolini I, Della Chiesa S, Niedrist G, Tappeiner U}{Monitoring soil moisture patterns in alpine meadows using ground sensor networks and remote sensing techniques.}{Geophysical Research Abstracts, Vol. 17, 2015, European Geosciences Union, General Assembly 2015 - Vienna}{Austria, 12\,--\,17 April 2015 (poster)}{}
+
+\tldatecventry{2014}{\underline{Brenner J}, Bertoldi G, Della Chiesa S, Niedrist G, Tappeiner U, Bronstert A}{Modellazione degli impatti del cambiamento climatico sulla distributione spaziale dell'evapotranspirazione, dell'umidita del terreno e del manto nevoso in una vallata alpina}{Atti del XXXIV Convegno Nazionale di Idraulica e Construzioni Idrauliche}{Bari, 07\,--\,10 Sept 2014}{}
+
+\tldatecventry{2014}{\underline{Brenner J}, Bertoldi G, Della Chiesa S, Niedrist G, Tappeiner U, Bronstert A}{Modeling impacts of climate change on evapotranspiration and soil moisture spatial patterns in an alpine catchment}{Geophysical Research Abstracts, Vol. 16, 2014, European Geosciences Union, General Assembly 2014}{Vienna, Austria, 27 April\,--\,2nd May 2014 (talk)}{}
+
+\tldatecventry{2012}{\underline{Brenner J}, Faul F, Ittner S, Scheiffele L, Schlingmann A, Vo\ss{} S, Weißhuhn P and Zoerner M (2012)}{\href{http://openlandscapes.zalf.de/openLandscapesWIKI_Glossaries/Ecosystem Services from Agro- and Forest Ecosystems.aspx}{Ecosystem Services from Agro- and Forest Ecosystems}}{openLandscape Wiki}{Leibniz Centre for Agricultural Landscape Research (ZALF)}{}
+
+\section{References}
+\cventry{1}{\href{http://www.geo.uni-potsdam.de/member-details/show/212.html}{Prof. Dr. Axel Bronstert}}{University of Potsdam}{Institute of Earth- and Enviromental Sciences}{\href{mailto:axelbron@uni-potsdam.de}{axelbron@uni-potsdam.de}}{}{}
+\cventry{2}{\href{http://www.eurac.edu/en/research/mountains/alpenv/staff/Pages/staffdetails.aspx?persId=8583}{Dr. Giacomo Bertoldi}}{European Academy Bozen/Bolzano}{Institute for Alpine Environment}{\href{mailto:Giacomo.Bertoldi@eurac.edu}{Giacomo.Bertoldi@eurac.edu}}{}{}
+
+
+\end{document}
+
